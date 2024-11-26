@@ -1,10 +1,10 @@
-
-```markdown
+````markdown
 # Full-Stack Application
 
 This is a full-stack application with a **Next.js** frontend and a **Node.js** backend. The project uses **Yarn** as the package manager.
-![demo](demo/1.png)
-![demo](demo/2.png)
+
+<img src="demo/1.png" width="300" />
+<img src="demo/2.png" width="300" />
 
 ---
 
@@ -17,6 +17,7 @@ This is a full-stack application with a **Next.js** frontend and a **Node.js** b
 ├── mockserver/    # Mock server
 ├── wiremock/    # Wire Mock server
 ```
+````
 
 ---
 
@@ -43,12 +44,14 @@ cd <repository-folder>
 Run the following commands in the **root directory** of the project:
 
 #### Frontend
+
 ```bash
 cd frontend
 yarn install
 ```
 
 #### Backend
+
 ```bash
 cd ../backend
 yarn install
@@ -59,6 +62,7 @@ yarn install
 ## Development
 
 ### Start the Frontend
+
 Navigate to the `frontend` folder and start the Next.js development server:
 
 ```bash
@@ -69,6 +73,7 @@ yarn dev
 By default, the frontend will run on `http://localhost:3000`.
 
 ### Start the Backend
+
 Navigate to the `backend` folder and start the backend server:
 
 ```bash
@@ -93,6 +98,7 @@ By default, the backend will run on `http://localhost:8000`.
 ## Production Build
 
 ### Frontend
+
 To create a production build for the frontend:
 
 ```bash
@@ -102,6 +108,7 @@ yarn start
 ```
 
 ### Backend
+
 To run the backend in production mode:
 
 ```bash
@@ -117,11 +124,13 @@ yarn start
 Both the frontend and backend require environment variables. Create `.env` files in their respective directories and configure them as needed.
 
 ### Example `.env` for Frontend:
+
 ```env
 NEXT_PUBLIC_SERVER_URL=http://localhost:3000
 ```
 
 ### Example `.env` for Backend:
+
 ```env
 PORT=8000
 MONGODB_URL=mongodb://localhost:27017/mydb
@@ -133,18 +142,20 @@ LLM_URL=http://localhost:8080
 ## Scripts
 
 ### Frontend Scripts
-| Script       | Description                                |
-|--------------|--------------------------------------------|
-| `yarn dev`   | Start the development server               |
-| `yarn build` | Create a production build                 |
-| `yarn start` | Start the production server               |
+
+| Script       | Description                  |
+| ------------ | ---------------------------- |
+| `yarn dev`   | Start the development server |
+| `yarn build` | Create a production build    |
+| `yarn start` | Start the production server  |
 
 ### Backend Scripts
-| Script       | Description                                |
-|--------------|--------------------------------------------|
-| `yarn start` | Start the backend server                  |
-| `yarn build` | Build the backend for production          |
-| `yarn test` | Test the api endpoint         |
+
+| Script       | Description                      |
+| ------------ | -------------------------------- |
+| `yarn start` | Start the backend server         |
+| `yarn build` | Build the backend for production |
+| `yarn test`  | Test the api endpoint            |
 
 ---
 
@@ -153,4 +164,3 @@ LLM_URL=http://localhost:8080
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
