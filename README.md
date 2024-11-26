@@ -72,7 +72,7 @@ Navigate to the `backend` folder and start the backend server:
 
 ```bash
 cd ../backend
-yarn start
+yarn dev
 ```
 
 By default, the backend will run on `http://localhost:8000`.
