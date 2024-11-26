@@ -1,9 +1,10 @@
-Here's a sample `README.md` file for your project:
 
 ```markdown
 # Full-Stack Application
 
 This is a full-stack application with a **Next.js** frontend and a **Node.js** backend. The project uses **Yarn** as the package manager.
+![demo](demo/1.png)
+![demo](demo/2.png)
 
 ---
 
@@ -72,10 +73,20 @@ Navigate to the `backend` folder and start the backend server:
 
 ```bash
 cd ../backend
-yarn start
+yarn dev
 ```
 
-By default, the backend will run on `http://localhost:5000`.
+By default, the backend will run on `http://localhost:8000`.
+
+---
+
+### Start Mock Server
+
+```bash
+docker compose up
+```
+
+By default, the backend will run on `http://localhost:8000`.
 
 ---
 
@@ -107,7 +118,7 @@ Both the frontend and backend require environment variables. Create `.env` files
 
 ### Example `.env` for Frontend:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:3000
+NEXT_PUBLIC_SERVER_URL=http://localhost:3000
 ```
 
 ### Example `.env` for Backend:
@@ -133,6 +144,7 @@ LLM_URL=http://localhost:8080
 |--------------|--------------------------------------------|
 | `yarn start` | Start the backend server                  |
 | `yarn build` | Build the backend for production          |
+| `yarn test` | Test the api endpoint         |
 
 ---
 
