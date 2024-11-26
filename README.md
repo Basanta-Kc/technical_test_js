@@ -75,7 +75,7 @@ cd ../backend
 yarn start
 ```
 
-By default, the backend will run on `http://localhost:5000`.
+By default, the backend will run on `http://localhost:8000`.
 
 ---
 
