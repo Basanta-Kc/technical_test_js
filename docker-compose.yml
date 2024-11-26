@@ -1,0 +1,9 @@
+services:
+  wiremock:
+    image: wiremock/wiremock:2.35.0
+    ports:
+      - "8080:8080" # Expose WireMock on port 8080
+    volumes:
+      - ./wiremock:/home/wiremock # Mount the local wiremock directory to the container
+    command: --verbose # Enable verbose logging for debugging
+
