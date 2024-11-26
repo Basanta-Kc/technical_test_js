@@ -1,10 +1,11 @@
+<img src="demo/1.png" width="300" />
+<img src="demo/2.png" width="300" />
 ````markdown
 # Full-Stack Application
 
 This is a full-stack application with a **Next.js** frontend and a **Node.js** backend. The project uses **Yarn** as the package manager.
 
-<img src="demo/1.png" width="300" />
-<img src="demo/2.png" width="300" />
+
 
 ---
 
