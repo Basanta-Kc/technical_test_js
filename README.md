@@ -3,11 +3,8 @@
 # Full-Stack Application
 
 This is a full-stack application with a **Next.js** frontend and a **Node.js** backend. The project uses **Yarn** as the package manager.
-![image](https://github.com/user-attachments/assets/7c9a2122-83af-4ccd-be4e-792f8631285d)
-![image](https://github.com/user-attachments/assets/388ea138-460e-4063-90ab-34f8a2450305)
-
-
-
+![demo](demo/1.png)
+![demo](demo/2.png)
 
 ---
 
