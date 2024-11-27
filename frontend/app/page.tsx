@@ -49,7 +49,7 @@ export default function CreateInterests() {
     },
     onError: (error: any) => {
       const errorMessage =
-        error.response?.data?.errors[0].message ||
+        error.response?.data?.errors?.[0]?.message ||
         error.message ||
         "Something went wrong";
 

@@ -91,9 +91,8 @@ export default function GetInterests() {
         {queryError && (
           <Alert variant="info">
             <AlertDescription>
-              {queryError instanceof Error
-                ? queryError?.response?.data?.errors[0].message
-                : "An error occurred while fetching interests"}
+              {queryError?.response?.data?.errors?.[0]?.message ??
+                "An error occurred while fetching interests"}
             </AlertDescription>
           </Alert>
         )}
